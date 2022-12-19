@@ -1,0 +1,2 @@
+web_db_server1 ansible_host=54.252.144.16 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/jingkbaws.pem
+web_db_server2 ansible_host=3.26.14.83 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/jingkbaws.pem
