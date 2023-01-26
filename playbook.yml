@@ -1,0 +1,12 @@
+---
+- name: Test Template playbook
+  hosts: localhost 
+  vars:
+     my_name: Alex Last
+     example_string: I am awesome
+  tasks:
+    - name: Try Ping
+      ping:
+    
+    - debug:
+        msg: "My name is {{ my_name }}. Example is {{ example_string | title }}"
